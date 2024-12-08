@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(123, 33, 134);
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://img.freepik.com/premium-photo/3d-abstract-background-with-neon-lights_1234738-488724.jpg') ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e6d0e3;
+    /* background-blend-mode: lighten; */
+
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    /* background-color: #d68eda; */
+    background-color: transparent;
+    padding: 20px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
+    /* background-image: transparent; */
+    
+}
+h1 {
+    text-align: center;
+    color: #deb6a6;
+    font-size: 52px;
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cipherselect {
+    width: 100%
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #cc65a3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #760b36;
+}
+
+#result {
+    margin-top: 20px;
+    color: black;
+}
+
+h3 {
+    color: #e6d0e3;
+}
+pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
